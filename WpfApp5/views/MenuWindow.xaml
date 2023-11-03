@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfApp5.views.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu Page" Height="1080" Width="720">
+
+    <Grid Margin="0,0,0,-6">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Background="GhostWhite" 
+                    BorderBrush="Black" 
+                    BorderThickness="3"
+                    CornerRadius="3,3,3,3">
+                <Button Content="User"
+                            FontSize="20"
+                            Margin="4"
+                        Background="#FFFFFBFB" 
+                        BorderThickness="0,0,0,0" 
+                        Click="User_Click"
+                         />
+            </Border>
+            <Border Background="GhostWhite" 
+                    BorderBrush="Black" 
+                    BorderThickness="3"
+                    CornerRadius="3,3,3,3" Margin="0,20,0,0"
+                    >
+
+                <Button Content="Product"
+                            FontSize="20"
+                            Margin="4"
+                        Background="#FFFFFBFB" 
+                        BorderThickness="0,0,0,0"
+                        Click="Product_Click"
+                         />
+            </Border>
+            <Border Background="GhostWhite" 
+                    BorderBrush="Black" 
+                    BorderThickness="3"
+                    CornerRadius="3,3,3,3" Margin="0,20,0,0"
+                    >
+
+                <Button Content="Orders"
+                            FontSize="20"
+                            Margin="4"
+                        Background="#FFFFFBFB" 
+                        BorderThickness="0,0,0,0"
+                        Click="Orders_Click"
+                         />
+            </Border>
+
+        </StackPanel>
+    </Grid>
+</Window>
